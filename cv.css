@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media print {
+    .special-hr{
+    display: none;
+    }
+    .page {
+        page-break-after: always;
+        height: 100%;
+    }
+ }
+ /*
+.page-height{
+    height: 1570px;
+}
+.page2-height{
+    height: 1590px;
+}
+.page3-height{
+    height: 1580px;
+}
+*/
+body{
+    /*font-family: Arial, Helvetica, sans-serif !important;*/
+    position: relative;
+}
+
+h3{
+    text-transform: uppercase;
+}
+h4{
+    text-transform: none;
+}
+/*left side*/
+.left-side{
+    background-image: linear-gradient(#199a9b, #0c426b);
+    color: #fff;
+}
+.Logo{
+    border: 7px #145273 solid;
+    width:200px;
+    height: 200px;
+    border-radius: 120px;
+    margin: 20px auto 0;
+    background-image: url("img.jpg");
+    background-size: 150%;
+    background-position-x: -60px;
+}
+.left-side hr{
+    border-top: 1px solid rgba(255,255,255,0.3);
+    margin: 8px 0;
+}
+.basic{
+    margin-top: 35px;
+    text-align: center;
+}
+.name{
+    font-size:32px;
+    line-height: 32px;
+    font-weight: bold;
+}
+.dob{
+    font-size: 18px;
+    margin-top:10px
+}
+.age{
+    font-size: 18px; 
+}
+
+.contact{
+    margin-top: 60px;
+}
+.contact > span{
+    margin-left: 20px;
+
+}
+.contact> span span{
+    margin-left:20px;
+    display: block;
+}
+.contact i{
+    margin-right:5px;
+    float: left;
+    margin-top:4px;
+}
+
+.skills{
+    margin-top:50px;
+    margin-left: 15px;
+}
+.skills-heading{
+    font-size: 32px;
+}
+.skills ul{
+    list-style: none;
+}
+.skills ul li{
+    font-size: 12.5px;
+    padding: 6px 20px 0;
+    text-transform: uppercase;
+}
+/*left side end*/
+
+/*right side*/
+.right-side{
+    padding-left: 24px !important;
+}
+.right-side h1{
+    margin-top: 60px;
+    font-size: 36px;
+    line-height: 32px;
+    font-weight: bold;
+}
+.right-side h1,.right-side p,.right-side h4{
+color : #050504;
+}
+.right-side h2{
+    color: #256d82;
+    font-size: 16px;
+    font-weight: bold;
+}
+.linedin{
+    font-size: 24px;
+    color:#1b858c;
+}
+.heading{
+    margin-bottom: 20px;
+}
+.right-side h3 i{
+    padding-right: 10px;
+}
+.right-side h3{
+    color:#1b858c;
+    font-size: 24px;
+    font-weight: bold;
+}
+.summery{
+    margin-bottom: 30px;
+}
+.right-side h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.right-side hr{
+    /*margin: 5px 0 15px;*/
+    margin: 2px 0;
+    border-top: 1px solid rgba(0,0,0,.2)
+}
+.professional-q{
+    margin-bottom: 30px;
+}
+.professional-q h3{
+    margin-bottom: 20px;
+}
+.info{
+    margin-bottom: 20px;
+}
+.info h4{
+    font-size: 18px;
+}
+.exp-text{
+    display: block;
+    margin-left: 25px;
+    font-size: 15px;
+}
+.exp-text2{
+    margin-top: 10px;
+}
+
+.one-line-text {
+    display: block;
+}
+/*right side end*/
+
+/*new page*/
+.new-p{
+    padding-top: 60px;
+}
+.professional-q ul{
+    padding: 0 40px;
+    list-style-type: square;
+}
+.professional-q ul li{
+    padding: 6px 15px;
+}
+.company{
+    text-transform: uppercase;
+    padding:30px;
+    text-align: center;
+}
+.company h5{
+    padding:10px 30px;
+    font-weight: bold;
+}
+.company span{
+    display: block;
+    line-height: 20px;
+}
+.company0{
+    padding-top: 340px;
+}
+.company1{
+    padding-top:60px;
+}
+.company2{
+    padding-top: 425px;
+}
+.company3{
+    padding-top:65px;
+}
+.module{
+    padding:10px 20px;
+    border: 2px rgba(255,255,255,0.3) solid;
+}
+.core-compo{
+    margin-top:40px;
+    text-align: center;
+}
+.new-p h6{
+    color:#0d6465;
+    font-weight: 500;
+}
+.box{
+    padding:10px;
+    border-radius: 10px;
+    color:#199a9b;
+    border: 1px  #199a9b solid;
+}
+.role-info{
+    padding: 20px;
+    margin: 40px 40px 40px 10px;
+}
+.first td{
+    border-top: 1px #000 solid;
+}
+.role-info td{
+    padding:10px;
+}
+.one{
+    border-bottom: 1px #000 solid;
+    border-right: 1px #000 solid;
+
+}
+.two{
+    border-bottom: 1px #000 solid;   
+}
+.info2{
+    margin-top:15px;
+}
+.info3{
+    margin-top:15px;
+}
+/*new page end*/
+
+/*last page*/
+.interest{
+    padding: 200px 20px 20px 20px;
+}
+.interest ul{
+    list-style: none;
+}
+.interest ul li{
+     padding:5px 5px;
+}
+.interest ul li i{
+    padding-right: 10px;
+}
+.reference span{
+    display: block;
+}
+.reference{
+    padding: 20px;
+}
+.reference .rname{
+    font-weight: bold;
+}
+.ref{
+    margin:20px;
+}
+.project{
+    margin-top: 100px;
+}
+.page1 .right-side hr,.page2 .right-side hr{
+    margin: 5px 0 15px;
+    background-color: #000;
+}
